@@ -25,12 +25,7 @@ description="Do not interfere.
 Best regards,
 /Your Company's IT-Management."
 trigger="/tmp/file.txt"
- 
 
-if [ "$1" == "_mbsetupuser" -o "$1" == "casperscreensharing" ];
-then
-	exit 0;
-fi
 
 if "/usr/local/jamf/bin/jamf" checkJSSConnection -retry 0 ;
 then
