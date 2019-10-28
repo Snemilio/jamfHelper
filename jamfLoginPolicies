@@ -23,7 +23,7 @@ then
 		-lockHUD \
 		-title "Login Status" \
 		-description "Checking for policies..." \
-		-icon "$bbn" \
+		-icon "$company" \
 		-iconSize 150 \
 		-windowPosition lr &
 	pid=$!
@@ -40,7 +40,7 @@ else
 		-lockHUD \
 		-title "Login Status" \
 		-description "Checking for policies..." \
-		-icon "$bbn" \
+		-icon "$company" \
 		-iconSize 150 \
 		-windowPosition lr &
 	pid=$!
