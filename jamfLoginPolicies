@@ -6,6 +6,7 @@
 # Date: 2019-08-20
 # Version: 1.1
 
+# Interacts with end user, checking for policies.
 
 jamfHelper="/Library/Application Support/JAMF/bin/jamfHelper.app/Contents/MacOS/jamfHelper"
 logo="Your Companies base64 encoded logo"
